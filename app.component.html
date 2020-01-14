@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Vibha</title>
+  </head>
+  <body [ngClass]="{proddiv1:ser==1}">
+    <h1 [ngStyle]="{color:clr}">this text changes color</h1><br><br>
+    <button (click)="clicking()">click</button><br><br>
+    <div [ngClass] = "{proddiv:servervar==1}" (click)="servervar=1">Vibha</div>
+    <div [ngClass]="{proddiv:servervar==2}" (click)="servervar=2">Bhagya</div>
+    <div [ngClass]="{proddiv:servervar==3}" (click)="servervar=3">Bhuvan</div>
+    <div [ngClass]="{proddiv:servervar==4}" (click)="servervar=4">Vishwanatha</div>
+
+  </body>
+</html>
